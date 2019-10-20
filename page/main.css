@@ -1,10 +1,9 @@
-
-#mainTitle {
-  display: inline;
-  color: white;
+body{
+  margin: auto;
 }
 
-main{
+
+header{
   text-align: center;
   background-color: black;
   margin-bottom: 20px;
@@ -17,10 +16,31 @@ i{
   margin-right: 7px;
 }
 
-img{
+#mainTitle {
+  display: inline;
+  color: white;
+}
 
+
+section{
+  margin: 0 20%;
+  border: solid white 1px;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.38);
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.38);
+}
+
+img{
+  width: 100%;
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 
+li{
+  padding: 10px;
+}
+
+.color{
+  background-color: darkgrey;
+}
