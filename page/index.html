@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Batman begins" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./main.css" />
     <title>Batman begins description</title>
   </head>
@@ -12,30 +18,36 @@
   <body>
     <header role="banner">
       <main role="main">
-        <h1 id="mainTitle" role="heading" aria-labelledby="main title">
-          Batman Begins
-        </h1>
-          <article role="article">
-            <img
-              src="https://s1.thcdn.com/productimg/1600/1600/11809562-1964606913694678.jpg"
-              alt="Affiche du film Batman Begins"
-              role="img"
-              aria-hidden="false"
-            />
-          </article>
+        <i class="fas fa-video" aria-hidden="false"></i>
+        <h1 id="mainTitle" role="heading" aria-labelledby="main title"> Batman Begins </h1>
+    </header>
 
-        <section role="region"></section>
+    <article role="article"></article>
+      <img src="https://s1.thcdn.com/productimg/1600/1600/11809562-1964606913694678.jpg" alt="Affiche du film Batman Begins"
+            role="img"
+            aria-hidden="false"/>
+    </article>
+
+
+    <section role="region">
           <article id="movieDetail" role="article">
-            <ul>
-              <li>
-                  <h2 id="caracteristique" role="" >Caractéristiques</h2>
-                  <p>Franchise: DC Comics</p>
-              </li>
-
+            <h2 id="caracteristique" role="" >Caractéristiques</h2>
+              <ul>
+                <li>Franchise: DC Comics</li>
+                <li>Série : Batman</li>
+                <li>Acteur(s): Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson </li>
+                <li>Réalisateur(s): Christopher Nolan</li>
+                <li> Langue des Sous-Titres: fr, it, esp</li>
+                <li>Date de sortie cinéma: 10 septembre 2005</li>
+              </ul>
           </article>
-        </ul>
+
+          <details role="region">
+              <summary>Description</summary>
+              <p>Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l’injustice.</p>
+          </details>
         </section>
       </main>
-    </header>
+
   </body>
 </html>

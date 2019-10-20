@@ -1,0 +1,26 @@
+
+#mainTitle {
+  display: inline;
+  color: white;
+}
+
+main{
+  text-align: center;
+  background-color: black;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+i{
+  color: white;
+  font-size: 28px;
+  margin-right: 7px;
+}
+
+img{
+
+}
+ul {
+  list-style: none;
+}
+
