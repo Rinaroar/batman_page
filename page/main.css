@@ -1,7 +1,9 @@
 body{
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
 
 header{
   text-align: center;
@@ -12,15 +14,22 @@ header{
 
 i{
   color: white;
-  font-size: 28px;
+  font-size: 26px;
   margin-right: 7px;
 }
 
 #mainTitle {
   display: inline;
   color: white;
+  font-size: 25px;
 }
 
+/* Content */
+
+h2{
+  padding: 5px;
+  margin-bottom: -10px;
+}
 
 section{
   margin: 0 20%;
@@ -32,6 +41,9 @@ section{
 img{
   width: 100%;
 }
+
+
+/* Caractéristiques */
 ul {
   list-style: none;
   padding: 0;
@@ -42,5 +54,21 @@ li{
 }
 
 .color{
-  background-color: darkgrey;
+  background-color: #e0e6e9;
+}
+
+
+/* Description */
+
+details{
+  padding: 5px 10px;
+}
+
+
+/* Footer */
+footer{
+  text-align: center;
+  margin: 40px 0;
+  color: grey;
+  font-style: italic;
 }

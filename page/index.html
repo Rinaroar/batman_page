@@ -16,35 +16,34 @@
   </head>
 
   <body>
-    <header role="banner">
+    <header id="header" role="banner">
         <i class="fas fa-video" aria-hidden="false"></i>
-        <h1 id="mainTitle" role="heading" aria-labelledby="main title"> Batman Begins </h1>
+        <h1 id="mainTitle" role="heading" aria-label="titre principale" aria-labelledby="mainTitle"> Batman Begins </h1>
     </header>
 
-    <main role="main">
-        <section role="region">
-          <img src="https://s1.thcdn.com/productimg/1600/1600/11809562-1964606913694678.jpg" alt="Affiche du film Batman Begins"
-            role="img"
-            aria-hidden="false"/>
+      <main id="principalContent" role="main" aria-labelledby="principalContent">
+          <section role="region">
+            <img src="https://s1.thcdn.com/productimg/1600/1600/11809562-1964606913694678.jpg" alt="Affiche du film Batman Begins" role="img" aria-hidden="false"/>
 
-          <article id="movieDetail" role="article">
-            <h2 id="caracteristique" role="" >Caractéristiques</h2>
-              <ul>
-                <li>Franchise: DC Comics</li>
-                <li class="color">Série : Batman</li>
-                <li>Acteur(s): Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson </li>
-                <li class="color">Réalisateur(s): Christopher Nolan</li>
-                <li> Langue des Sous-Titres: fr, it, esp</li>
-                <li class="color">Date de sortie cinéma: 10 septembre 2005</li>
-              </ul>
-          </article>
+            <article id="movieDetail" role="article" aria-label="Encart des details du film">
+              <h2 id="movieInfo" role="">Caractéristiques</h2>
+                <ul role="list" aria-labelledby="movieInfo">
+                  <li role="listitem">Franchise: DC Comics</li>
+                  <li role="listitem" class="color">Série : Batman</li>
+                  <li role="listitem">Acteur(s): Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson </li>
+                  <li role="listitem" class="color" >Réalisateur(s): Christopher Nolan</li>
+                  <li role="listitem"> Langue des Sous-Titres: fr, it, esp</li>
+                  <li role="listitem" class="color" >Date de sortie cinéma: 10 septembre 2005</li>
+                </ul>
+            </article>
 
-          <details role="region">
-            <summary>Description</summary>
-              <p>Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l’injustice.</p>
-          </details>
+            <details id="movieDescription" role="region" aria-labelledby="movieDescription">
+              <summary>Description</summary>
+                <p role="contentinfo">Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l’injustice.</p>
+            </details>
 
-        </section>
-    </main>
+          </section>
+      </main>
+    <footer id="footer" role="contentinfo">Marina Luxin - M1 Developpement Web</footer>
   </body>
 </html>
