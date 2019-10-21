@@ -15,31 +15,53 @@
     <title>Batman begins description</title>
   </head>
 
-  <body>
+  <body itemscope itemtype="https://schema.org/Movie">
     <header id="header" role="banner">
         <i class="fas fa-video" aria-hidden="false"></i>
-        <h1 id="mainTitle" role="heading" aria-label="titre principale" aria-labelledby="mainTitle"> Batman Begins </h1>
+        <h1 id="mainTitle" role="heading" aria-label="titre principale" aria-labelledby="mainTitle" aria-level="1" itemprop="name"> Batman Begins </h1>
     </header>
 
       <main id="principalContent" role="main" aria-labelledby="principalContent">
-          <section role="region">
-            <img src="https://s1.thcdn.com/productimg/1600/1600/11809562-1964606913694678.jpg" alt="Affiche du film Batman Begins" role="img" aria-hidden="false"/>
+          <section>
 
-            <article id="movieDetail" role="article" aria-label="Encart des details du film">
-              <h2 id="movieInfo" role="">Caractéristiques</h2>
+            <img src="https://s1.thcdn.com/productimg/1600/1600/11809562-1964606913694678.jpg" alt="Affiche du film Batman Begins" role="img" aria-hidden="false"itemprop="image"/>
+
+            <article id="movieDetail" aria-label="Encart des details du film">
+              <h2 id="movieInfo" role="heading" aria-level="2">Caractéristiques</h2>
                 <ul role="list" aria-labelledby="movieInfo">
-                  <li role="listitem">Franchise: DC Comics</li>
-                  <li role="listitem" class="color">Série : Batman</li>
-                  <li role="listitem">Acteur(s): Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson </li>
-                  <li role="listitem" class="color" >Réalisateur(s): Christopher Nolan</li>
-                  <li role="listitem"> Langue des Sous-Titres: fr, it, esp</li>
-                  <li role="listitem" class="color" >Date de sortie cinéma: 10 septembre 2005</li>
+
+                  <li role="listitem">Franchise:
+                    <span class="productionCompany" itemprop="productionCompany">DC Comics</span>
+                  </li>
+
+                  <li role="listitem" class="color">Série:
+                    <span class="name" itemprop="name"> Batman</span>
+                  </li>
+
+                  <li role="listitem">Acteur(s):
+                    <span class="actor" itemprop="actor"> Christian Bale, Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson</span>
+                  </li>
+
+                  <li role="listitem" class="color">Réalisateur(s):
+                    <span class="director" itemprop="director">Christopher Nolan</span>
+                  </li>
+
+                  <li role="listitem"> Langue des sous-titres:
+                    <span class="subtitleLanguage" itemprop="subtitleLanguage"> FR, IT, ESP</span>
+                  </li>
+
+                  <li id="date" class="color">Date de sortie:
+                    <span class="sortie" itemprop="text">
+                      <time datetime="2005-09-10" itemprop="datePublished">10 septembre 2005</time>
+                    </span>
+                  </li>
+
                 </ul>
             </article>
 
-            <details id="movieDescription" role="region" aria-labelledby="movieDescription">
+            <details id="movieDescription" aria-labelledby="movieDescription">
               <summary>Description</summary>
-                <p role="contentinfo">Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l’injustice.</p>
+                <p>Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City. Torturé par un profond sentiment de colère et de culpabilité, le jeune héritier de cette richissime famille fuit Gotham pour un long et discret voyage à travers le monde. Le but de ses pérégrinations : sublimer sa soif de vengeance en trouvant de nouveaux moyens de lutter contre l’injustice.</p>
             </details>
 
           </section>
